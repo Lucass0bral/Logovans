@@ -1,0 +1,943 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size:1rem;
+}
+
+/*Header*/
+
+header{
+    background-color: #000000;  
+}
+.navbar-nav{
+    margin-top: 25px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: rgba(255,255,255);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus{
+    color: rgba(255,255,255);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#f8a81d;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-family: 'Raleway Black';
+    text-align: center;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #fff;
+}
+.navbar-toggler-icon{
+    color:#fff;
+}
+.bg-black{
+    max-width: auto;
+    background-color: #000000;
+}
+
+header img{
+    width:150px;
+}
+
+.veiculos img{
+    width: 560px;
+}
+
+.veiculos h1{
+    text-align: right;
+}
+
+footer img{
+    width:100px;
+}
+
+/*banner*/
+
+.carousel-item img{
+    overflow: hidden;
+    text-align: center;
+}
+
+#beach{
+    position: relative; 
+    left: -80%; 
+    margin-left: -200%; 
+}
+
+#camp{
+    position: relative; 
+    left: -55%; 
+    margin-left: -200%; 
+}
+
+#lake{
+    position: relative; 
+    left: 145%; 
+    margin-left: -200%; 
+}
+
+
+.text1 {
+    color: #fff;
+    font-family: "Raleway Black";
+    text-align: center;
+    text-shadow: 2px 2px #000;
+}
+
+.text2 {
+    color: #fff;
+    font-family: "Open Sans Light";
+    text-align: center;
+    text-shadow: 2px 2px #000;
+}
+
+.banner .container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*quemsomos*/
+
+.quemsomos h1{
+    color: #000000;
+    font-family: "Raleway Black";
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.quemsomos p{
+    color: #000000;
+    font-family: "Open Sans Light";
+    text-align: justify;
+    font-weight: 300;
+}
+
+.quemsomos video{
+    margin-top: 35px;
+    margin-bottom:100px;
+    width:320px;
+    height: auto;
+}
+
+.player{
+    padding-left: 0px;
+    padding-right: 0px;  
+}
+
+/*veículos*/
+
+.veiculos{
+    background-color: #000000;
+    padding-bottom: 30px;
+}
+
+.veiculos h1{
+    color: #ffffff;
+    font-family: "Raleway Black";
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.veiculos img{
+    width: 320px;
+    height: auto;
+}
+
+.photo{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.veiculos p{
+    margin-top: 36px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    color:#fff;
+    font-family: "Open Sans Light";
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 70px;
+}
+
+/*Serviços*/
+
+.serviços h1{
+    color: #000000;
+    font-family: "Raleway Black";
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.serviços .fas{
+    padding-top: 30px;
+    padding-bottom:50px; 
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.serv{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.serv .card{
+    width: 320px;
+}
+
+.serviços .venda{
+    background-color: rgb(26,128,195);
+    border-radius: 0px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.serviços .venda h3{
+    padding-bottom: 55px;
+    color: #fff;
+    font-family: "Raleway Black";
+}
+
+.serviços .venda p{
+    text-align: justify;
+    color:#fff;
+    font-family: "Open Sans Light";
+    font-weight: 300;
+    font-style: normal; 
+}
+
+.serviços .avaliaçao{
+    background-color: rgb(17,70,52);
+    border-radius: 0px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.serviços .avaliaçao h3{
+    padding-bottom: 55px;
+    color: #fff;
+    font-family: "Raleway Black";
+}
+
+.serviços .avaliaçao p{
+    text-align: justify;
+    color:#fff;
+    font-family:"Open Sans Light";
+    font-weight: 300;
+    font-style: normal; 
+}
+
+.serviços .manutençao{
+    background-color: rgb(248,168,29);
+    border-radius: 0px;
+    margin: auto;
+    margin-bottom: 70px;
+    border: 0px solid;
+}
+
+.serviços .manutençao .fa-wrench{
+    color: #000000;
+}
+
+.serviços .manutençao h3{
+    padding-bottom: 55px;
+    color: #000;
+    font-family: "Raleway Black";
+}
+
+.serviços .manutençao p{
+    text-align: justify;
+    color:#000;
+    font-family: "Open Sans Light";
+    font-weight: 300;
+    font-style: normal; 
+}
+
+.serviços .pintura{
+    background-color:#000000;
+    border-radius: 0px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.serviços .pintura h3{
+    padding-bottom: 55px;
+    color: #ffffff;
+    font-family: "Raleway Black";
+}
+
+.serviços .pintura p{
+    text-align: justify;
+    color:#fff;
+    font-family: "Open Sans Light";
+    font-weight: 300;
+    font-style: normal; 
+}
+
+/*Clientes*/
+
+.clientes{
+    background-color: #000000;
+}
+
+.clientes h1{
+    color: #ffffff;
+    font-family: "Raleway Black";
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.clientes img{
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+
+.clientes h4{
+    font-family:"Open Sans";
+    margin-top: 84px;
+    color: #ffffff;
+}
+
+.clientes p{
+    font-family:"Open Sans Light";
+    margin-top: 30px;
+    color: #ffffff;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+.clientes .carousel-control-prev-icon, .carousel-control-next-icon {
+    display: none;
+}
+
+/*Endereço*/
+
+.endereço h1{
+    color: #000000;
+    font-family: "Raleway Black";
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.endereço img{
+    width: 320px;
+}
+
+.endereço p{
+    font-family:"Open Sans Light";
+    color: #000000;
+    text-align: justify;
+}
+
+.mapa{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 95px;
+    margin-bottom: 100px;
+}
+
+/*Fale Conosco*/
+
+.faleconosco{
+    background-color: #000000;
+}
+
+.faleconosco h1{
+    color: #ffffff;
+    font-family: "Raleway Black";
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px; 
+}
+
+.form-control {
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+.form-control::placeholder {
+    color: #fff;
+    font-family: "Open Sans Light";
+}
+
+
+.form-control:focus {
+    color: #fff;
+    background-color: #000000;
+    border-color: #fff;
+}
+
+.form-check-input {
+    height: 20px;
+    width: 20px;
+}
+
+.form-check-label {
+    margin-left: 14px;
+    font-family: "Open Sans Light";
+    color: #fff;
+    text-align: justify;
+}
+
+.btn-light {
+    font-family: "Open Sans Light";
+    width: 80px;
+    border-top-left-radius: 2.25rem;
+    border-bottom-right-radius: 2.25rem;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 100px;
+}
+
+footer .links{
+    display: none;
+}
+
+footer ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+footer .links li{
+    margin-bottom: 10px;
+}
+
+footer .informaçoes{
+    width: 232px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+footer .informaçoes li{
+    margin-bottom: 10px;
+}
+
+footer .redessociais li{
+    display: inline-block;
+}
+
+footer img {
+    width: 150px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+footer .fas {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+footer .fab{
+    color: #000000;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+footer .fas{
+    color: #000000;
+}
+
+footer a{
+    font-family: "Open Sans Light";
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+footer a:hover{
+    color: #000;
+}
+
+.fa-facebook:hover{
+    background: -webkit-linear-gradient(left,rgba(0,114,188),rgba(125,167,188));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-whatsapp:hover{
+    background: -webkit-linear-gradient(left,rgba(17,70,52),rgba(16,104,53));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-instagram:hover{
+    background: -webkit-linear-gradient(left,rgba(248,168,29),rgba(254,207,7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer .logo{
+    text-align: center;
+}
+
+footer .design{
+    text-align: center;
+}
+
+@media (min-width: 374.98px) {
+
+/*header*/
+
+    #beach {
+        position: relative;
+        left: -20%;
+        margin-left: -200%;
+    }
+    
+    #camp {
+        position: relative;
+        left: -4%;
+        margin-left: -200%;
+    }
+
+/*Quem Somos*/
+
+    .quemsomos video {
+        margin-top: 35px;
+        margin-bottom: 100px;
+        width: 375px;
+        height: auto;
+    }
+
+/*Veículos*/
+
+    .veiculos img {
+        width: 375px;
+        height: auto;
+    }
+
+/*Serviços*/
+
+    .serv .card{
+        width: 375px;
+    }
+
+/*Endereço*/
+
+    .endereço img {
+        width: 375px;
+    }
+
+} 
+
+@media (min-width: 424.98px) { 
+
+/*header*/
+
+    #beach {
+        position: relative;
+        left: -1%;
+        margin-left: -200%;
+    }
+    
+    #camp {
+        position: relative;
+        left: -1%;
+        margin-left: -170%;
+    }
+
+/*Quem Somos*/
+
+    .quemsomos video {
+        margin-top: 35px;
+        margin-bottom: 100px;
+        width: 425px;
+        height: auto;
+    }
+
+/*Veículos*/
+
+    .veiculos img {
+        width: 425px;
+        height: auto;
+    }
+
+/*Endereço*/
+
+    .endereço img {
+       width: 425px;
+    }
+
+    .mapa {
+        padding-left: 0px;
+    }
+
+
+}
+
+@media (min-width: 767.98px) {
+
+/*header*/
+
+    #beach {
+        position: relative;
+        left: 134%;
+        margin-left: -200%;
+    }
+
+    #camp{
+        position: relative;
+        left: 134%;
+        margin-left: -188%;
+    }
+
+    #lake {
+        position: relative;
+        left: 145%;
+        margin-left: -175%;
+    }
+    
+    .text1 {
+        top: 65%;
+    }
+
+/*Quem Somos*/
+
+    .quemsomos h1 {
+        text-align: left;
+        position: relative;
+        left: 239.5px; 
+        width: 259px;
+    }
+
+    .quemsomos p {
+        width: 738px;
+    }
+
+    .quemsomos .player {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .quemsomos video{
+        width: 738px;
+    }
+
+/*Veiculos*/
+
+    .veiculos img {
+        width: 354px;
+        height: auto;
+    }
+
+    .photo {
+        padding-left: 15px; 
+        padding-right: 15px; 
+    }
+
+/*Serviços*/
+
+    .serv .card{
+        height: 460px;
+        width: 354px;
+    }
+
+    .serviços .avaliaçao h3 {
+        padding-bottom: 46px;
+    }
+
+    .serviços .manutençao h3 {
+        padding-bottom: 42.5px;
+    }
+
+    .avaliaçao h3{
+        font-size: 1.1rem;
+    }
+
+    .manutençao h3{
+        font-size: 1.3rem;
+    }
+
+/*clientes*/
+
+    .clientes p {
+        text-align: center
+    }
+
+/*endereço*/
+
+    .endereço h1 {
+       margin-bottom: 60px;
+       margin-top: 95px;
+    }
+
+    .endereço img {
+        width:354px;
+    }
+    
+    .mapa {
+        padding-left: 15px;
+    }
+
+/*footer*/
+
+    footer .links{
+        display:block;
+        text-align: left;
+        padding-left: 60.625px;
+    }
+
+    footer a{
+        font-family: "Raleway Black";
+        color: #000000;
+        padding-bottom: 50px;
+    }
+
+    footer .design {
+        padding-top: 50px;
+        padding-left: 406px;
+    }
+
+    footer .design a{
+        font-family: "Open Sans Light";
+    }
+
+    footer .logo{
+        padding-top: 46px;
+    }
+
+}
+
+@media (min-width: 991.98px) {
+
+/*header*/
+
+    .container-fluid {
+        padding-right: 90px;
+        padding-left: 90px;
+    }
+
+    .col-12 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    header img {
+        width: 130px;
+        padding-left: 0px;
+    }
+
+    .navbar-expand-lg {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        padding-bottom: 30px;
+        font-size: 1.2rem;
+    } 
+    
+    header img {
+        width: 150px;
+        padding-left: 8px;
+    }
+
+    #beach {
+        left: 175%;
+    }
+
+    #camp {
+        left: 163%;
+    }
+
+    #lake {
+        left: 164%;
+    }
+
+/*Quem Somos*/
+
+    .quemsomos p {
+        width: 407px; 
+        margin-bottom: 100px;
+    }
+
+    .quemsomos video{
+        width: 407px;
+        margin-top: 175px;
+    }
+
+    .quemsomos h1 {
+        text-align: left;
+        position: static;
+    }
+    
+/*Veículos*/
+
+    .veiculos{
+        padding-bottom: 50px;
+    }
+
+    .veiculos h1{
+        text-align: right;
+        padding-right: 15px;
+    }
+
+    .veiculos img {
+        width: 407px;
+        height: auto;
+    }
+
+    .photo{
+        margin-bottom: 50px;
+    }
+
+/*Serviços*/
+
+    .serviços{
+        margin-bottom: 60px;
+    }
+
+    .serviços h1 {
+        text-align: left;
+    }
+    
+    .serv .card {
+        height: 460px;
+        width: 407px;
+        margin-bottom: 60px;
+    }
+
+/*Clientes*/
+
+    .clientes .carousel-control-prev-icon, .carousel-control-next-icon {
+        display: initial;
+        margin-bottom: 300px;
+    }
+
+/*endereço*/
+
+    .endereço h1 {
+        text-align: left;
+    }
+
+    .endereço img {
+        width: 407px;
+        margin-left: 15px;   
+    }
+/*footer*/
+
+    footer ul {
+        width: 202px;
+    }
+
+    footer .logo{
+        padding-top: 40px;
+    }
+    
+}
+
+@media (min-width: 1199.98px) { 
+
+    .container-fluid{
+        width: 1440px;
+    }
+
+/*banner*/
+
+    #lake{
+        left: 158%;
+    }
+
+
+/*Quem Somos*/
+
+    .quemsomos p {
+        width: 615px;
+    }
+
+    .quemsomos video {
+        width: 615px;
+        margin-top: 100px;
+    }
+
+/*Veiculos*/
+
+    .veiculos img {
+        width: 615px;
+        height: auto;
+    }
+
+/*Serviços*/
+
+    .serv .card {
+        height: 500px;
+        width: 300px;
+    }
+
+    .pintura h3{
+        font-size: 1.47rem;
+        padding-bottom: 58px;
+    }
+
+/*Endereço*/
+
+    .endereço img {
+        width: 615px;
+    }
+
+/*footer*/
+
+    footer .logo {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    footer img {
+        margin-top: 100px;
+    }
+
+    footer .design {
+        text-align: right;
+        padding-top: 115px;
+    }
+
+    footer .informaçoes{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+}
+
+@media (min-width: 1919.98px) { 
+
+    .banner .container-fluid{
+        width: 100%;
+    }
+
+    #camp {
+        left:188%
+    }
+
+    #beach {
+        left:200%
+    }
+
+    #lake {
+        left:175%
+    }
+
+
+}
+// Dispositivos extra large (desktops grandes)
+// Nenhuma media query, já que o breakpoint extra large não possui nenhum limite acima.

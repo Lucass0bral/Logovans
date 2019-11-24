@@ -495,7 +495,7 @@ footer .design{
     text-align: center;
 }
 
-@media (min-width: 374.98px) {
+@media (max-width: 374.98px) {
 
 /*header*/
 
@@ -541,7 +541,7 @@ footer .design{
 
 } 
 
-@media (min-width: 424.98px) { 
+@media (max-width: 424.98px) { 
 
 /*header*/
 
@@ -586,7 +586,7 @@ footer .design{
 
 }
 
-@media (min-width: 767.98px) {
+@media (max-width: 767.98px) {
 
 /*header*/
 
@@ -719,7 +719,7 @@ footer .design{
 
 }
 
-@media (min-width: 991.98px) {
+@media (max-width: 991.98px) {
 
 /*header*/
 
@@ -847,7 +847,7 @@ footer .design{
     
 }
 
-@media (min-width: 1199.98px) { 
+@media (max-width: 1199.98px) { 
 
     .container-fluid{
         width: 1440px;
@@ -919,7 +919,7 @@ footer .design{
 
 }
 
-@media (min-width: 1919.98px) { 
+@media (max-width: 1919.98px) { 
 
     .banner .container-fluid{
         width: 100%;

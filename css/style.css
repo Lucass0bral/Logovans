@@ -31,9 +31,8 @@ header{
 
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    font-weight: 900;    
+    font-family: 'Raleway Black', sans-serif;
+    text-align: center;  
 }
 
 .navbar-dark .navbar-toggler {

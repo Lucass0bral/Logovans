@@ -69,18 +69,21 @@ footer img{
     position: relative; 
     left: -80%; 
     margin-left: -200%; 
+    width: 100%;
 }
 
 #camp{
     position: relative; 
     left: -55%; 
     margin-left: -200%; 
+    width: 100%;
 }
 
 #lake{
     position: relative; 
     left: 145%; 
-    margin-left: -200%; 
+    margin-left: -200%;
+    width: 100%;
 }
 
 
@@ -123,7 +126,7 @@ footer img{
 .quemsomos video{
     margin-top: 35px;
     margin-bottom:100px;
-    width:auto;
+    width: 100%;
     height: auto;
 }
 
@@ -148,7 +151,7 @@ footer img{
 }
 
 .veiculos img{
-    width: auto;
+    width: 100%;
     height: auto;
 }
 
@@ -332,7 +335,7 @@ footer img{
 }
 
 .endereço img{
-    width: auto;
+    width: 100%;
 }
 
 .endereço p{
@@ -565,14 +568,12 @@ footer .design{
 /*Veículos*/
 
     .veiculos img {
-        width: 425px;
         height: auto;
     }
 
 /*Endereço*/
 
     .endereço img {
-       width: 425px;
     }
 
     .mapa {
@@ -633,7 +634,6 @@ footer .design{
 /*Veiculos*/
 
     .veiculos img {
-        width: 354px;
         height: auto;
     }
 
@@ -679,7 +679,6 @@ footer .design{
     }
 
     .endereço img {
-        width:354px;
     }
     
     .mapa {
@@ -769,7 +768,7 @@ footer .design{
     }
 
     .quemsomos video{
-        width: 407px;
+        width: 100%;
         margin-top: 175px;
     }
 
@@ -790,7 +789,7 @@ footer .design{
     }
 
     .veiculos img {
-        width: 407px;
+        width: 100%;
         height: auto;
     }
 
@@ -828,7 +827,7 @@ footer .design{
     }
 
     .endereço img {
-        width: 407px;
+        width: 100%;
         margin-left: 15px;   
     }
 /*footer*/
@@ -863,7 +862,7 @@ footer .design{
     }
 
     .quemsomos video {
-        width: 615px;
+        width: 100%;
         margin-top: 100px;
     }
 
@@ -889,7 +888,7 @@ footer .design{
 /*Endereço*/
 
     .endereço img {
-        width: 615px;
+        width: 100%;
     }
 
 /*footer*/

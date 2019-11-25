@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:900&display=swap');
 
 html{
     scroll-behavior: smooth;
@@ -96,7 +96,8 @@ footer img{
 
 .text2 {
     color: #fff;
-    font-family: "Open Sans Light";
+    font-family: "Open Sans",sans-serif;
+    font-weight:300;
     text-align: center;
     text-shadow: 2px 2px #000;
 }
@@ -119,9 +120,9 @@ footer img{
 
 .quemsomos p{
     color: #000000;
-    font-family: "Open Sans Light";
+    font-family: "Open Sans",sans-serif;
+    font-weight:300;
     text-align: justify;
-    font-weight: 300;
 }
 
 .quemsomos video{
@@ -168,8 +169,8 @@ footer img{
     padding-right: 15px;
     text-align: justify;
     color:#fff;
-    font-family: "Open Sans Light";
-    font-weight: 300;
+   font-family: "Open Sans",sans-serif;
+    font-weight:300;
     font-style: normal;
     margin-bottom: 70px;
 }
@@ -218,8 +219,8 @@ footer img{
 .serviços .venda p{
     text-align: justify;
     color:#fff;
-    font-family: "Open Sans Light";
-    font-weight: 300;
+   font-family: "Open Sans",sans-serif;
+    font-weight:300;
     font-style: normal; 
 }
 
@@ -240,8 +241,8 @@ footer img{
 .serviços .avaliaçao p{
     text-align: justify;
     color:#fff;
-    font-family:"Open Sans Light";
-    font-weight: 300;
+    font-family: "Open Sans",sans-serif;
+    font-weight:300;
     font-style: normal; 
 }
 
@@ -267,8 +268,8 @@ footer img{
 .serviços .manutençao p{
     text-align: justify;
     color:#000;
-    font-family: "Open Sans Light";
-    font-weight: 300;
+   font-family: "Open Sans",sans-serif;
+    font-weight:300;
     font-style: normal; 
 }
 
@@ -289,8 +290,8 @@ footer img{
 .serviços .pintura p{
     text-align: justify;
     color:#fff;
-    font-family: "Open Sans Light";
-    font-weight: 300;
+    font-family: "Open Sans",sans-serif;
+    font-weight:300;
     font-style: normal; 
 }
 
@@ -316,13 +317,15 @@ footer img{
 }
 
 .clientes h4{
-    font-family:"Open Sans";
+    font-family: "Open Sans",sans-serif;
+    font-weight:400;
     margin-top: 84px;
     color: #ffffff;
 }
 
 .clientes p{
-    font-family:"Open Sans Light";
+    font-family: "Open Sans",sans-serif;
+    font-weight:300;
     margin-top: 30px;
     color: #ffffff;
     text-align: justify;
@@ -348,7 +351,8 @@ footer img{
 }
 
 .endereço p{
-    font-family:"Open Sans Light";
+    font-family: "Open Sans",sans-serif;
+    font-weight:300;
     color: #000000;
     text-align: justify;
 }
@@ -382,7 +386,8 @@ footer img{
 
 .form-control::placeholder {
     color: #fff;
-    font-family: "Open Sans Light";
+    font-family: "Open Sans",sans-serif;
+    font-weight:300;
 }
 
 
@@ -399,13 +404,15 @@ footer img{
 
 .form-check-label {
     margin-left: 14px;
-    font-family: "Open Sans Light";
+    font-family: "Open Sans",sans-serif;
+    font-weight:300;
     color: #fff;
     text-align: justify;
 }
 
 .btn-light {
-    font-family: "Open Sans Light";
+    font-family: "Open Sans",sans-serif;
+    font-weight:300;
     width: 80px;
     border-top-left-radius: 2.25rem;
     border-bottom-right-radius: 2.25rem;
@@ -469,7 +476,8 @@ footer .fas{
 }
 
 footer a{
-    font-family: "Open Sans Light";
+    font-family: "Open Sans",sans-serif;
+    font-weight:300;
     color: #000000;
     padding-bottom: 50px;
 }
@@ -525,7 +533,7 @@ footer .design{
     .quemsomos video {
         margin-top: 35px;
         margin-bottom: 100px;
-        width: 375px;
+        width: 100%;
         height: auto;
     }
 
@@ -558,7 +566,7 @@ footer .design{
     .quemsomos video {
         margin-top: 35px;
         margin-bottom: 100px;
-        width: 425px;
+        width: 100%;
         height: auto;
     }
     
@@ -615,7 +623,7 @@ footer .design{
     }
 
     .quemsomos video{
-        width: 738px;
+        width: 100%;
     }
 
 /*Veiculos*/
@@ -839,7 +847,7 @@ footer .design{
 /*Veiculos*/
 
     .veiculos img {
-        width: 615px;
+        width: 100%;
         height: auto;
     }
 

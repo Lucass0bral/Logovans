@@ -31,8 +31,10 @@ header{
 
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
-    font-family: 'Raleway Black', sans-serif;
-    text-align: center;  
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    text-align: center; 
+    
 }
 
 .navbar-dark .navbar-toggler {
@@ -86,7 +88,8 @@ footer img{
 
 .text1 {
     color: #fff;
-    font-family: "Raleway Black";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
     text-align: center;
     text-shadow: 2px 2px #000;
 }
@@ -107,7 +110,8 @@ footer img{
 
 .quemsomos h1{
     color: #000000;
-    font-family: "Raleway Black";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
     margin-top: 100px;
     margin-bottom: 100px;
     text-align: center;
@@ -141,7 +145,8 @@ footer img{
 
 .veiculos h1{
     color: #ffffff;
-    font-family: "Raleway Black";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
     margin-top: 100px;
     text-align: center;
     margin-bottom: 100px;
@@ -173,7 +178,8 @@ footer img{
 
 .serviços h1{
     color: #000000;
-    font-family: "Raleway Black";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
     margin-top: 100px;
     text-align: center;
     margin-bottom: 100px;
@@ -205,7 +211,8 @@ footer img{
 .serviços .venda h3{
     padding-bottom: 55px;
     color: #fff;
-    font-family: "Raleway Black";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
 }
 
 .serviços .venda p{
@@ -226,7 +233,8 @@ footer img{
 .serviços .avaliaçao h3{
     padding-bottom: 55px;
     color: #fff;
-    font-family: "Raleway Black";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
 }
 
 .serviços .avaliaçao p{
@@ -252,7 +260,8 @@ footer img{
 .serviços .manutençao h3{
     padding-bottom: 55px;
     color: #000;
-    font-family: "Raleway Black";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
 }
 
 .serviços .manutençao p{
@@ -273,7 +282,8 @@ footer img{
 .serviços .pintura h3{
     padding-bottom: 55px;
     color: #ffffff;
-    font-family: "Raleway Black";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
 }
 
 .serviços .pintura p{
@@ -292,7 +302,8 @@ footer img{
 
 .clientes h1{
     color: #ffffff;
-    font-family: "Raleway Black";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
     margin-top: 100px;
     text-align: center;
     margin-bottom: 100px;
@@ -325,7 +336,8 @@ footer img{
 
 .endereço h1{
     color: #000000;
-    font-family: "Raleway Black";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
     margin-top: 100px;
     text-align: center;
     margin-bottom: 100px;
@@ -356,7 +368,8 @@ footer img{
 
 .faleconosco h1{
     color: #ffffff;
-    font-family: "Raleway Black";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
     margin-top: 100px;
     text-align: center;
     margin-bottom: 100px; 
@@ -516,22 +529,9 @@ footer .design{
         height: auto;
     }
 
-/*Veículos*/
-
-    .veiculos img {
-        width: 375px;
-        height: auto;
-    }
-
 /*Serviços*/
 
     .serv .card{
-        width: 375px;
-    }
-
-/*Endereço*/
-
-    .endereço img {
         width: 375px;
     }
 
@@ -561,22 +561,12 @@ footer .design{
         width: 425px;
         height: auto;
     }
-
-/*Veículos*/
-
-    .veiculos img {
-        height: auto;
-    }
-
+    
 /*Endereço*/
-
-    .endereço img {
-    }
 
     .mapa {
         padding-left: 0px;
     }
-
 
 }
 
@@ -630,10 +620,6 @@ footer .design{
 
 /*Veiculos*/
 
-    .veiculos img {
-        height: auto;
-    }
-
     .photo {
         padding-left: 15px; 
         padding-right: 15px; 
@@ -673,9 +659,6 @@ footer .design{
     .endereço h1 {
        margin-bottom: 60px;
        margin-top: 95px;
-    }
-
-    .endereço img {
     }
     
     .mapa {
@@ -722,11 +705,6 @@ footer .design{
 
     .col-12 {
         padding-right: 0px;
-        padding-left: 0px;
-    }
-
-    header img {
-        width: 130px;
         padding-left: 0px;
     }
 
@@ -783,11 +761,6 @@ footer .design{
     .veiculos h1{
         text-align: right;
         padding-right: 15px;
-    }
-
-    .veiculos img {
-        width: 100%;
-        height: auto;
     }
 
     .photo{

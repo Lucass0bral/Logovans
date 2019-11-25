@@ -67,10 +67,9 @@ footer img{
     text-align: center;
 }
 
-#beach{
-    position: relative; 
-    left: -80%; 
-    margin-left: -200%; 
+#beach {
+    position: relative;
+    margin-left: -255%;
 }
 
 #camp{
@@ -520,8 +519,7 @@ footer .design{
 
     #beach {
         position: relative;
-        left: -20%;
-        margin-left: -200%;
+        margin-left: -209%;
     }
     
     #camp {

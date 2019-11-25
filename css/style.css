@@ -834,7 +834,31 @@ footer .design{
     
 }
 
-@media (min-width: 1199.98px) { 
+@media (min-width: 1279.98px){
+     
+    .container-fluid{
+        width: 991.98px;
+    }
+    
+     .banner .container-fluid{
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 1365.98px){
+     
+    .container-fluid{
+        width: 991.98px;
+    }
+    
+     .banner .container-fluid{
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 1439.98px) { 
 
 /*banner*/
 

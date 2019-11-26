@@ -1051,6 +1051,11 @@ footer .design{
         padding-left: 300px;
         padding-right: 300px;
     }
+    
+     footer .informaçoes ul {
+        width: 202px;
+        margin-left: 5px;
+    }
 
 }
 

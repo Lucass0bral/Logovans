@@ -166,7 +166,7 @@ footer img{
     padding-right: 15px;
     text-align: justify;
     color:#fff;
-   font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans",sans-serif;
     font-weight:300;
     font-style: normal;
     margin-bottom: 70px;
@@ -637,8 +637,8 @@ footer .design{
     }
     
     .photo {
-        padding-left: 0px; 
-        padding-right: 0px; 
+        padding-left: 15px; 
+        padding-right: 15px; 
     }
 
 /*Serviços*/
@@ -690,7 +690,7 @@ footer .design{
         text-align: center;
     }
 
-    footer links a{
+    footer .links a{
         font-family: 'Raleway', sans-serif;
         font-weight: 900;
         color: #000000;

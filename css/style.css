@@ -835,13 +835,24 @@ footer .design{
 }
 
 @media (min-width: 1279.98px){
-     
+    
+    
+    
     .container-fluid{
         width: 991.98px;
     }
     
+    header .container-fluid{
+        width: 100%;
+    }
+    
      .banner .container-fluid{
         width: 100%;
+    }
+   
+    .serviços .col-xl-3{
+        flex: 0 0 50%;
+        max-width: 50%;
     }
     
 }
@@ -852,14 +863,27 @@ footer .design{
         width: 991.98px;
     }
     
+    header .container-fluid{
+        width: 100%;
+    }
+    
      .banner .container-fluid{
         width: 100%;
+    }
+    
+    .serviços .col-xl-3{
+        flex: 0 0 50%;
+        max-width: 50%;
     }
     
 }
 
 @media (min-width: 1439.98px) { 
 
+    .container-fluid{
+        width: 1440px;
+    }
+    
 /*banner*/
 
     #lake{

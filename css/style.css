@@ -584,8 +584,7 @@ footer .design{
 
     #beach {
         position: relative;
-        left: 134%;
-        margin-left: -200%;
+        margin-left: -66%;
     }
 
     #camp{
@@ -691,7 +690,8 @@ footer .design{
     }
 
     footer a{
-        font-family: "Raleway Black";
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
         color: #000000;
         padding-bottom: 50px;
     }
@@ -702,7 +702,8 @@ footer .design{
     }
 
     footer .design a{
-        font-family: "Open Sans Light";
+        font-family: "Open Sans",sans-serif;
+        font-weight:300;
     }
 
     footer .logo{
@@ -741,7 +742,7 @@ footer .design{
     }
 
     #beach {
-        left: 175%;
+        margin-left: -25%;
     }
 
     #camp {
@@ -783,6 +784,7 @@ footer .design{
     .veiculos img {
         width: 407px;
         height: auto;
+        padding-right: 0px;
     }
 
     .photo{
@@ -819,8 +821,7 @@ footer .design{
     }
 
     .endereço img {
-        width: 407px;
-        margin-left: 15px;   
+        width: 407px; 
     }
 /*footer*/
 
@@ -846,13 +847,42 @@ footer .design{
         width: 100%;
     }
     
+    #beach{
+        margin-left: -38%;
+    }
+    
      .banner .container-fluid{
         width: 100%;
     }
-   
+    
+    .quemsomos p {
+        width: 390px;
+    }
+    
+    .quemsomos video{
+        width: 390px;
+    }
+       
+    .veiculos p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .veiculos img {
+        padding-right: 15px;
+    }
+    
     .serviços .col-xl-3{
         flex: 0 0 50%;
         max-width: 50%;
+    }
+    
+     .serv .card {
+        width: 390px;
+    }
+    
+    .endereço img {
+        width: 390x;
     }
     
 }
@@ -865,6 +895,10 @@ footer .design{
     
     header .container-fluid{
         width: 100%;
+    }
+    
+    #beach{
+        margin-left: -40%;
     }
     
      .banner .container-fluid{
@@ -885,7 +919,11 @@ footer .design{
     }
     
 /*banner*/
-
+    
+     #beach{
+        margin-left: -33%;
+    }
+    
     #lake{
         left: 158%;
     }
@@ -965,7 +1003,7 @@ footer .design{
     }
 
     #beach {
-        left:200%
+        margin-left: 0%;
     }
 
     #lake {

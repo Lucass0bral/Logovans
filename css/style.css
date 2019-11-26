@@ -708,8 +708,8 @@ footer .design{
 
     footer .design {
         margin-right: 0px;
-        text-align: right;
-        margin-top: 75px;
+        text-align: center;
+        margin-top: 40px;
     }
 
     footer .design a{
@@ -722,7 +722,7 @@ footer .design{
     }
     
     footer img {
-    margin-left: 0px; 
+        margin-left: 0px; 
     }
 
 }

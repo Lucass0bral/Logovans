@@ -328,6 +328,7 @@ footer img{
     text-align: justify;
     margin-bottom: 100px;
 }
+
 .clientes .carousel-control-prev-icon, .carousel-control-next-icon {
     display: none;
 }
@@ -692,6 +693,11 @@ footer .design{
         font-weight: 900;
         color: #000000;
         padding-bottom: 50px;
+    }
+    
+    footer .redessociais a{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
     }
 
     footer .design {

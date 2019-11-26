@@ -450,6 +450,10 @@ footer .informaçoes li{
     font-weight:300;
 }
 
+footer .redessociais{
+    text-align: center;
+}
+
 footer .redessociais li{
     display: inline-block;
 }

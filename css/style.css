@@ -181,7 +181,6 @@ footer img{
     margin-top: 100px;
     text-align: center;
     margin-bottom: 100px;
-    padding-left: 15px;
 }
 
 .serviços .fas{
@@ -632,6 +631,10 @@ footer .design{
         height: auto;
     }
     
+    .veiculos p{
+        padding-left: 0px;
+        padding-right: 0px;
+    
     .photo {
         padding-left: 15px; 
         padding-right: 15px; 
@@ -809,6 +812,7 @@ footer .design{
 
     .serviços h1 {
         text-align: left;
+        padding-left: 15px;
     }
     
     .serv .card {
@@ -892,7 +896,6 @@ footer .design{
     
     .veiculos img {
         padding-right: 15px;
-        width: 390px;
     }
     
  /*Serviços*/
@@ -984,6 +987,7 @@ footer .design{
     .veiculos img {
         width: 615px;
         height: auto;
+        padding-right: 0px;
     }
 
 /*Serviços*/

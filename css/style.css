@@ -636,15 +636,15 @@ footer .design{
         padding-right: 0px;
     
     .photo {
-        padding-left: 15px; 
-        padding-right: 15px; 
+        padding-left: 0px; 
+        padding-right: 0px; 
     }
 
 /*Serviços*/
 
     .serv .card{
-        height: 460px;
         width: 354px;
+        height: 492px;
     }
 
     .serviços .avaliaçao h3 {
@@ -666,7 +666,7 @@ footer .design{
 /*clientes*/
 
     .clientes p {
-        text-align: center
+        text-align: center;
     }
 
 /*endereço*/
@@ -677,22 +677,19 @@ footer .design{
     }
     
     .endereço img {
-        width:354px;
+        width: 354px;
+        margin-left: 15px;
     }
-    
-    .mapa {
-        padding-left: 15px;
-    }
+   
 
 /*footer*/
 
     footer .links{
-        display:block;
-        text-align: left;
-        padding-left: 60.625px;
+        display: initial;
+        text-align: center;
     }
 
-    footer a{
+    footer links a{
         font-family: 'Raleway', sans-serif;
         font-weight: 900;
         color: #000000;
@@ -705,17 +702,17 @@ footer .design{
     }
 
     footer .design {
-        padding-top: 50px;
-        padding-left: 406px;
+        margin-right: 10px;
+        margin-top: 40px;
     }
 
     footer .design a{
-        font-family: "Open Sans",sans-serif;
-        font-weight:300;
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 300;
     }
 
     footer .logo{
-        padding-top: 46px;
+        margin-top: 30px;
     }
 
 }

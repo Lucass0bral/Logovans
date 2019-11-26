@@ -837,7 +837,7 @@ footer .design{
 
 @media (min-width: 1279.98px){
     
-    
+/*Header*/
     
     .container-fluid{
         width: 991.98px;
@@ -855,6 +855,8 @@ footer .design{
         width: 100%;
     }
     
+/*Quem Somos*/
+    
     .quemsomos p {
         width: 390px;
     }
@@ -862,7 +864,9 @@ footer .design{
     .quemsomos video{
         width: 390px;
     }
-       
+      
+/*Veículos*/
+    
     .veiculos p {
         padding-left: 0px;
         padding-right: 0px;
@@ -871,6 +875,8 @@ footer .design{
     .veiculos img {
         padding-right: 15px;
     }
+    
+ /*Serviços*/
     
     .serviços .col-xl-3{
         flex: 0 0 50%;
@@ -881,6 +887,8 @@ footer .design{
         width: 390px;
     }
     
+/*Endereço*/
+    
     .endereço img {
         width: 390x;
     }
@@ -888,7 +896,9 @@ footer .design{
 }
 
 @media (min-width: 1365.98px){
-     
+
+/*header*/
+    
     .container-fluid{
         width: 991.98px;
     }
@@ -904,6 +914,8 @@ footer .design{
      .banner .container-fluid{
         width: 100%;
     }
+    
+/*Serviços*/
     
     .serviços .col-xl-3{
         flex: 0 0 50%;
@@ -958,7 +970,12 @@ footer .design{
         font-size: 1.47rem;
         padding-bottom: 58px;
     }
-
+    
+    .serviços .col-xl-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    
 /*Endereço*/
 
     .endereço img {
@@ -990,7 +1007,13 @@ footer .design{
 
 @media (min-width: 1919.98px) { 
 
+/*header*/
+    
     .container-fluid{
+        width: 1440px;
+    }
+    
+    header .container-fluid{
         width: 1440px;
     }
     
@@ -1009,7 +1032,13 @@ footer .design{
     #lake {
         left:175%
     }
-
+    
+/*serviços*/
+    
+     .serviços .col-xl-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
 
 }
 // Dispositivos extra large (desktops grandes)

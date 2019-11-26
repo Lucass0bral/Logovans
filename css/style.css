@@ -74,14 +74,12 @@ footer img{
 
 #camp{
     position: relative; 
-    left: -55%; 
-    margin-left: -200%; 
+    margin-left: -220%; 
 }
 
-#lake{
-    position: relative; 
-    left: 145%; 
-    margin-left: -200%;
+#lake {
+    position: relative;
+    margin-left: -63%;
 }
 
 
@@ -267,7 +265,7 @@ footer img{
 .serviços .manutençao p{
     text-align: justify;
     color:#000;
-   font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans",sans-serif;
     font-weight:300;
     font-style: normal; 
 }
@@ -524,7 +522,6 @@ footer .design{
     
     #camp {
         position: relative;
-        left: -4%;
         margin-left: -200%;
     }
 
@@ -551,14 +548,17 @@ footer .design{
 
     #beach {
         position: relative;
-        left: -1%;
         margin-left: -200%;
     }
     
     #camp {
         position: relative;
-        left: -1%;
         margin-left: -170%;
+    }
+    
+    #lake {
+        position: relative;
+        margin-left: -63%;
     }
 
 /*Quem Somos*/
@@ -589,14 +589,12 @@ footer .design{
 
     #camp{
         position: relative;
-        left: 134%;
-        margin-left: -188%;
+        margin-left: -66%;
     }
 
     #lake {
         position: relative;
-        left: 145%;
-        margin-left: -175%;
+        margin-left: -30%;
     }
     
     .text1 {
@@ -746,11 +744,11 @@ footer .design{
     }
 
     #camp {
-        left: 163%;
+        margin-left: -25%;
     }
 
     #lake {
-        left: 164%;
+        margin-left: -12%;
     }
 
 /*Quem Somos*/
@@ -851,6 +849,14 @@ footer .design{
         margin-left: -38%;
     }
     
+    #camp {
+        margin-left: -40%;
+    }
+    
+    #lake {
+        margin-left: -24%;
+    }
+    
      .banner .container-fluid{
         width: 100%;
     }
@@ -911,6 +917,10 @@ footer .design{
         margin-left: -40%;
     }
     
+    #lake {
+        margin-left: -18%;
+    }
+    
      .banner .container-fluid{
         width: 100%;
     }
@@ -936,8 +946,12 @@ footer .design{
         margin-left: -33%;
     }
     
+     #camp {
+        margin-left: -34%;
+    }
+    
     #lake{
-        left: 158%;
+        margin-left: -15%
     }
 
 
@@ -1021,16 +1035,16 @@ footer .design{
         width: 100%;
     }
 
-    #camp {
-        left:188%
-    }
-
     #beach {
+        margin-left: 0%;
+    }
+    
+    #camp {
         margin-left: 0%;
     }
 
     #lake {
-        left:175%
+       margin-left: 0%; 
     }
     
 /*serviços*/

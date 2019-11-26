@@ -848,10 +848,12 @@ footer .design{
 
     footer .informaçoes ul {
         width: 202px;
+        margin-left: 30px;
     }
 
     footer .logo{
         padding-top: 40px;
+        text-align: left;
     }
     
     footer .links {
@@ -1010,7 +1012,7 @@ footer .design{
 
     .serv .card {
         height: 500px;
-        width: 300px;
+        width: 292.5px;
     }
 
     .pintura h3{

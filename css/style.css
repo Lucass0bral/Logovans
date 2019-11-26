@@ -790,7 +790,12 @@ footer .design{
         height: auto;
         padding-right: 0px;
     }
-
+    
+    .veiculos p{
+        padding-left:0px;
+        padding-right:0px;
+    }
+    
     .photo{
         margin-bottom: 50px;
     }
@@ -886,6 +891,7 @@ footer .design{
     
     .veiculos img {
         padding-right: 15px;
+        width: 390px;
     }
     
  /*Serviços*/

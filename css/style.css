@@ -841,7 +841,7 @@ footer .design{
     }
 /*footer*/
 
-    footer ul {
+    footer .informaçoes ul {
         width: 202px;
     }
 
@@ -850,8 +850,12 @@ footer .design{
     }
     
     footer .links {
-    display: initial;
-    text-align: left;
+        display: initial;
+        text-align: left;
+    }
+    
+    footer .redessociais {
+        text-align: right;
     }
     
 }

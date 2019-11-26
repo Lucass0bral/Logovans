@@ -865,6 +865,14 @@ footer .design{
         text-align: right;
     }
     
+    footer .design {
+        text-align: right;
+        margin-top: 75px;
+}
+
+
+    
+    
 }
 
 @media (min-width: 1279.98px){

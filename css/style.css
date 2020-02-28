@@ -713,6 +713,12 @@ footer .design{
         width: 354px;
         margin-left: 15px;
     }
+    
+/*faleconosco*/
+    
+    .form-check-label {
+    width: auto;
+    }
    
 
 /*footer*/

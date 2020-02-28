@@ -583,6 +583,34 @@ footer .design{
 
 }
 
+@media (min-width: 576px) {
+
+/*header*/    
+    
+    #lake {
+        position: relative;
+        margin-left: -32%;
+    }
+    
+    #beach {
+        position: relative;
+        margin-left: -100%;
+    }
+    
+    #camp {
+        position: relative;
+        margin-left: -100%;
+    }
+    
+/*faleconosco*/
+    
+    .form-check-label {
+        width: 425px;
+    }
+
+}
+
+
 @media (min-width: 767.98px) {
 
 /*header*/
